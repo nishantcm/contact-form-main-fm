@@ -1,8 +1,8 @@
 
 export default function Form() {
     return (
-        <Section>
+        <section>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quibusdam.</p>
-        </Section>
+        </section>
     );
 }
