@@ -33,13 +33,13 @@ export default function Form() {
                                         <label for="email" class="form-label" required>Query Type</label>
                                         <div className="row">
                                             <div className="col-sm-12 col-md-6">
-                                                <div class="form-label mb-3">
+                                                <div class="form-label mb-3 border border-1">
                                                     <input type="radio" class="form-check-input" name="btnradio" id="radio1" autocomplete="off" />
                                                     <label class="form-check-label" for="radio1">General Enquiry</label> 
                                                 </div>
                                             </div>
                                             <div className="col-sm-12 col-md-6">
-                                                <div class="form-label mb-3">
+                                                <div class="form-label mb-3 border border-1">
                                                     <input type="radio" class="form-check-input" name="btnradio" id="radio2" autocomplete="off" />
                                                     <label class="form-check-label" for="radio2">Support Request</label> 
                                                 </div>
