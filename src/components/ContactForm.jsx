@@ -6,7 +6,7 @@ export default function Form() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-8">
-                            <div className="card cardPadding">
+                            <div className="card cardPadding rounded-4">
                                 <div className="head">
                                     <h2>Contact Us</h2>
                                 </div>
@@ -33,14 +33,14 @@ export default function Form() {
                                         <label for="email" class="form-label" required>Query Type</label>
                                         <div className="row">
                                             <div className="col-sm-12 col-md-6">
-                                                <div class="form-label mb-3 border border-1">
-                                                    <input type="radio" class="form-check-input" name="btnradio" id="radio1" autocomplete="off" />
+                                                <div class="form-label mb-3 border border-1 p-2 rounded-2">
+                                                    <input type="radio" class="form-check-input ms-2 me-2" name="btnradio" id="radio1" autocomplete="off" />
                                                     <label class="form-check-label" for="radio1">General Enquiry</label> 
                                                 </div>
                                             </div>
                                             <div className="col-sm-12 col-md-6">
-                                                <div class="form-label mb-3 border border-1">
-                                                    <input type="radio" class="form-check-input" name="btnradio" id="radio2" autocomplete="off" />
+                                                <div class="form-label mb-3 border border-1 p-2 rounded-2">
+                                                    <input type="radio" class="form-check-input ms-2 me-2" name="btnradio" id="radio2" autocomplete="off" />
                                                     <label class="form-check-label" for="radio2">Support Request</label> 
                                                 </div>
                                             </div>
@@ -50,8 +50,8 @@ export default function Form() {
                                             <textarea type="text" class="form-control" id="message" aria-describedby="basic-addon3"></textarea> 
                                         </div>
                                         <div>
-                                            <input type="checkbox" class="form-check-input" name="btnradio" id="checkbox" autocomplete="off" />
-                                            <label class="form-check-label" for="checkbox">Support Request</label>
+                                            <input type="checkbox" class="form-check-input" name="btnradio" id="checkbox" autocomplete="off" required />
+                                            <label class="form-check-label" for="checkbox">I consent to being contacted by the team</label>
                                         </div>
                                     </div>
                                 </div>
