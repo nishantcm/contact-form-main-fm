@@ -50,7 +50,7 @@ export default function Form() {
                                             <textarea type="text" class="form-control" id="message" aria-describedby="basic-addon3"></textarea> 
                                         </div>
                                         <div>
-                                            <input type="checkbox" class="form-check-input" name="btnradio" id="checkbox" autocomplete="off" required />
+                                            <input type="checkbox" class="form-check-input me-3" name="btnradio" id="checkbox" autocomplete="off" required />
                                             <label class="form-check-label" for="checkbox">I consent to being contacted by the team</label>
                                         </div>
                                     </div>
