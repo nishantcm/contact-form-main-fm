@@ -21,5 +21,7 @@ code {
   .cardPadding {
     padding-left: 5% !important;
     padding-right: 5% !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
