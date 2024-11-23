@@ -12,7 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.buttonColor {
+  background-color: #0c7d69;
+  width: 100%;
+}
 
 
 
