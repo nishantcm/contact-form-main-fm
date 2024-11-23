@@ -53,6 +53,9 @@ export default function Form() {
                                             <input type="checkbox" class="form-check-input me-3" name="btnradio" id="checkbox" autocomplete="off" required />
                                             <label class="form-check-label" for="checkbox">I consent to being contacted by the team</label>
                                         </div>
+                                        <div class="mt-3">
+                                            <button className="btn buttonColor text-white text-center py-2" type="submit">Submit</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
