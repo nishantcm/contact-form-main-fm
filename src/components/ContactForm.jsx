@@ -53,7 +53,7 @@ export default function Form() {
                                             <input type="checkbox" className="form-check-input me-3" id="consentCheck" value="" autocomplete="off" required />
                                             <label className="form-check-label" for="consentCheck">I consent to being contacted by the team</label>
                                         </div>
-                                        <div className="mt-3">
+                                        <div className="d-grid gap-2 mt-3">
                                             <button className="btn buttonColor text-white text-center py-2" type="submit">Submit</button>
                                         </div>
                                     </div>
