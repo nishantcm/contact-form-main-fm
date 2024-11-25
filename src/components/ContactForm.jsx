@@ -12,25 +12,25 @@ export default function Form() {
                                 </div>
                                 <div className="row">
                                     <div className="col-12 col-sm-12 col-md-6">
-                                        <label for="first-name" className="form-label" required>First Name</label>
+                                        <label for="first-name" className="form-label" required>First Name <span className="symbolRequired">*</span></label>
                                         <div className="form-label mb-3">
                                             <input type="text" className="form-control" id="first-name" aria-describedby="basic-addon3"/> 
                                         </div>
                                     </div>
                                     <div className="col-12 col-sm-12 col-md-6">
-                                        <label for="last-name" className="form-label" required>Last Name</label>
+                                        <label for="last-name" className="form-label" required>Last Name <span className="symbolRequired">*</span></label>
                                         <div className="form-label mb-3">
                                             <input type="text" className="form-control" id="last-name" aria-describedby="basic-addon3"/> 
                                         </div>
                                     </div>
                                     <div className="col-12 col-sm-12 col-md-12">
-                                        <label for="email" className="form-label" required>Email</label>
+                                        <label for="email" className="form-label" required>Email <span className="symbolRequired">*</span></label>
                                         <div className="form-label mb-3">
                                             <input type="text" className="form-control" id="email" aria-describedby="basic-addon3"/> 
                                         </div>
                                     </div>
                                     <div className="col-12 col-sm-12 col-md-12">
-                                        <label for="email" className="form-label" required>Query Type</label>
+                                        <label for="email" className="form-label" required>Query Type <span className="symbolRequired">*</span></label>
                                         <div className="row">
                                             <div className="col-sm-12 col-md-6">
                                                 <div className="form-label mb-3 border border-1 p-2 rounded-2">
@@ -46,12 +46,12 @@ export default function Form() {
                                             </div>
                                         </div>
                                         <div className="form-label mb-3">
-                                            <label className="form-label" for="message" required>Message</label> 
+                                            <label className="form-label" for="message" required>Message <span className="symbolRequired">*</span></label> 
                                             <textarea type="text" className="form-control" id="message" aria-describedby="basic-addon3"></textarea> 
                                         </div>
                                         <div className="d-flex">
                                             <input type="checkbox" className="form-check-input me-3" id="consentCheck" value="" autocomplete="off" required />
-                                            <label className="form-check-label" for="consentCheck">I consent to being contacted by the team</label>
+                                            <label className="form-check-label" for="consentCheck">I consent to being contacted by the team <span className="symbolRequired">*</span></label>
                                         </div>
                                         <div className="d-grid gap-2 mt-3">
                                             <button className="btn buttonColor text-white text-center py-2" type="submit">Submit</button>
