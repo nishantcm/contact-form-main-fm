@@ -13,10 +13,12 @@ code {
     monospace;
 }
 .buttonColor {
-  background-color: #0c7d69;
+  background-color: #0c7d69 !important;
 }
 
-
+.symbolRequired {
+  color: #0c7d69 !important;
+}
 
 
 @media screen, (max-width: 767px) {
