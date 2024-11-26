@@ -31,21 +31,23 @@ export default function Form() {
                                             </div>
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-12">
-                                            <label for="radio1" className="form-label">Query Type <span className="symbolRequired">*</span></label>
-                                            <div className="row">
-                                                <div className="col-sm-12 col-md-6">
-                                                    <div className="form-label mb-3 border border-1 p-2 rounded-2">
-                                                        <input type="radio" className="form-check-input ms-2 me-2" name="queryType" id="radio1" autocomplete="off"/>
-                                                        <label className="form-check-label" for="radio1">General Enquiry</label> 
+                                            <fieldset>
+                                                <legend className="fs-6">Query Type <span className="symbolRequired">*</span></legend>
+                                                <div className="row">
+                                                    <div className="col-sm-12 col-md-6">
+                                                        <div className="form-label mb-3 border border-1 p-2 rounded-2">
+                                                            <input type="radio" className="form-check-input ms-2 me-2" name="queryType" id="radio1" autocomplete="off" required/>
+                                                            <label className="form-check-label" for="radio1">General Enquiry</label> 
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-sm-12 col-md-6">
+                                                        <div className="form-label mb-3 border border-1 p-2 rounded-2">
+                                                            <input type="radio" className="form-check-input ms-2 me-2" name="queryType" id="radio2" autocomplete="off"/>
+                                                            <label className="form-check-label" for="radio2">Support Request</label> 
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div className="col-sm-12 col-md-6">
-                                                    <div className="form-label mb-3 border border-1 p-2 rounded-2">
-                                                        <input type="radio" className="form-check-input ms-2 me-2" name="queryType" id="radio2" autocomplete="off"/>
-                                                        <label className="form-check-label" for="radio2">Support Request</label> 
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            </fieldset>
                                         </div>
                                         <div className="form-label mb-3">
                                             <label className="form-label" for="message">Message <span className="symbolRequired">*</span></label> 
