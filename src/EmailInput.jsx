@@ -15,11 +15,13 @@ function EmailInput() {
   };
 
   return (
-    <div>
+    <div className="mb-3">
       <input
         type="email"
         value={email}
         onChange={handleChange}
+        className="form-control"
+        required
       />
       {!isValid && <p>Invalid email format</p>}
     </div>
