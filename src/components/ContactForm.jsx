@@ -1,4 +1,4 @@
-
+import EmailInput from "../EmailInput";
 export default function Form() {
     return (
         <section>
@@ -26,9 +26,10 @@ export default function Form() {
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-12">
                                             <label for="email" className="form-label">Email <span className="symbolRequired">*</span></label>
-                                            <div className="form-label mb-3">
+                                            {/* <div className="form-label mb-3">
                                                 <input type="text" className="form-control" id="email" aria-describedby="basic-addon3" required/> 
-                                            </div>
+                                            </div> */}
+                                            <EmailInput></EmailInput>
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-12">
                                             <fieldset>
