@@ -1,4 +1,5 @@
 import EmailInput from "../EmailInput";
+import Button from "./Button";
 export default function Form() {
     return (
         <section>
@@ -58,9 +59,7 @@ export default function Form() {
                                             <input type="checkbox" className="form-check-input me-3" id="consentCheck" required />
                                             <label className="form-check-label" for="consentCheck">I consent to being contacted by the team <span className="symbolRequired">*</span></label>
                                         </div>
-                                        <div className="d-grid gap-2 mt-3">
-                                            <button className="btn buttonColor text-white text-center py-2" type="submit">Submit</button>
-                                        </div>
+                                        <Button></Button>
                                     </div>
                                 </form>
                                 
