@@ -1,12 +1,23 @@
-import { useFormStatus } from "react-dom";
+import React, { useForm } from "react";
  
 
 export default function Button() {
-    
+    const [showAlert, setShowAlert] = useState(false);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setShowAlert(true);
+
+        setTimeout(() => {
+            setShowAlert(false);
+          }, 3000);
+        };
     return(
-        <div className="d-grid gap-2 mt-3">
-            <button className="btn buttonColor text-white text-center py-2" type="submit">Submit</button>
-        </div>
+        <form onSubmit={handleSubmit}>
+            <div className="d-grid gap-2 mt-3">
+                <button className="btn buttonColor text-white text-center py-2" type="submit">Submit</button>
+            </div>
+        </form>
     )
     
 }
