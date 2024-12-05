@@ -50,7 +50,7 @@ export default function Form() {
                                         </div>
                                         <div className="form-label mb-3">
                                             <label className="form-label" for="message">Message <span className="symbolRequired">*</span></label> 
-                                            <textarea type="text" className="form-control" id="message" aria-describedby="basic-addon3" required></textarea> 
+                                            <textarea type="text" className="form-control" id="message" aria-describedby="basic-addon3" rows="3" required></textarea> 
                                         </div>
                                         <div className="d-flex">
                                             <input type="checkbox" className="form-check-input me-3" id="consentCheck" required />
