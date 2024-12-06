@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,3 +16,14 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import ContactForm from "./ContactForm";
+
+// const App = () => (
+//   <div>
+//     <ContactForm />
+//   </div>
+// );
+
+// ReactDOM.render(<App />, document.getElementById("root"));
