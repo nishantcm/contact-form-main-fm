@@ -67,3 +67,107 @@ export default function Form() {
         </section>
     );
 }
+
+// import React, { useState } from "react";
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
+
+// const ContactForm = () => {
+//   const [formData, setFormData] = useState({
+//     name: "",
+//     email: "",
+//     message: "",
+//   });
+
+//   const [formErrors, setFormErrors] = useState({
+//     name: false,
+//     email: false,
+//     message: false,
+//   });
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData((prev) => ({ ...prev, [name]: value }));
+//     setFormErrors((prev) => ({ ...prev, [name]: false }));
+//   };
+
+//   const validateForm = () => {
+//     const errors = {
+//       name: !formData.name.trim(),
+//       email: !formData.email.trim(),
+//       message: !formData.message.trim(),
+//     };
+
+//     setFormErrors(errors);
+//     return !Object.values(errors).some(Boolean);
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     if (validateForm()) {
+//       toast.success("Form submitted successfully!");
+//       setFormData({ name: "", email: "", message: "" });
+//     } else {
+//       toast.error("Please fill all the fields!");
+//     }
+//   };
+
+//   return (
+//     <div style={{ maxWidth: "400px", margin: "0 auto", padding: "20px" }}>
+//       <h2>Contact Us</h2>
+//       <form onSubmit={handleSubmit}>
+//         <div style={{ marginBottom: "15px" }}>
+//           <label htmlFor="name">Name:</label>
+//           <input
+//             type="text"
+//             id="name"
+//             name="name"
+//             value={formData.name}
+//             onChange={handleChange}
+//             style={{ width: "100%", padding: "8px", marginTop: "5px" }}
+//           />
+//           {formErrors.name && <span style={{ color: "red" }}>Name is required</span>}
+//         </div>
+//         <div style={{ marginBottom: "15px" }}>
+//           <label htmlFor="email">Email:</label>
+//           <input
+//             type="email"
+//             id="email"
+//             name="email"
+//             value={formData.email}
+//             onChange={handleChange}
+//             style={{ width: "100%", padding: "8px", marginTop: "5px" }}
+//           />
+//           {formErrors.email && <span style={{ color: "red" }}>Email is required</span>}
+//         </div>
+//         <div style={{ marginBottom: "15px" }}>
+//           <label htmlFor="message">Message:</label>
+//           <textarea
+//             id="message"
+//             name="message"
+//             value={formData.message}
+//             onChange={handleChange}
+//             rows="4"
+//             style={{ width: "100%", padding: "8px", marginTop: "5px" }}
+//           />
+//           {formErrors.message && <span style={{ color: "red" }}>Message is required</span>}
+//         </div>
+//         <button
+//           type="submit"
+//           style={{
+//             background: "blue",
+//             color: "white",
+//             padding: "10px 15px",
+//             border: "none",
+//             cursor: "pointer",
+//           }}
+//         >
+//           Submit
+//         </button>
+//       </form>
+//       <ToastContainer />
+//     </div>
+//   );
+// };
+
+// export default ContactForm;
